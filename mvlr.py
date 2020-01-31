@@ -231,7 +231,7 @@ contour(x, y, th_copy)
 
 reg = None
 regder = None
-opt = int(input("Enter 1 for lasso regularization, 2 for ridge regularizations, 3 for none "))
+opt = int(input("Enter 1 for lasso regularization, 2 for ridge regularizations, 3 for none : "))
 if(opt == 1):
     reg = lasso_reg
     reg_der = lasso_regder
